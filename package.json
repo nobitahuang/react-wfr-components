@@ -1,0 +1,37 @@
+{
+  "name": "react-wfr-components",
+  "version": "0.0.1",
+  "description": "React Weefer's Component",
+  "main": "./dist/lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobitah/react-wfr-components.git"
+  },
+  "author": "Nobita Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nobitah/react-wfr-components/issues"
+  },
+  "homepage": "https://github.com/nobitah/react-wfr-components#readme",
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "babel-loader": "^8.0.6",
+    "parcel-bundler": "^1.12.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
